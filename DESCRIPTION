@@ -1,0 +1,16 @@
+Package: fibor
+Title: Fibonacci Stuff
+Version: 0.0.0.9000
+Authors@R: 
+    person("Lingyun", "Zhang", , "lyzhang10@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-4074-8921"))
+Description: This package is useful for dealing with Fibonacci numbers, Fibonacci matrices, and Bernoulli-Fibonacci problem.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    Rmpfr
