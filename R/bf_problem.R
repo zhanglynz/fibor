@@ -9,16 +9,16 @@
 #' @export
 #'
 #' @examples
-#' (count_grids(r = 1, n = 6))
-#' (count_grids(r = 2, n = 6))
-#' (count_grids(r = 3, n = 6))
-#' (count_grids(r = 4, n = 6))
-#' (count_grids(r = 5, n = 6))
-#' (count_grids(r = 6, n = 6))
-#' (count_grids(r = 7, n = 6))
-#' (count_grids(r = 8, n = 6))
-#' (count_grids(r = 9, n = 6))
-count_grids <- function(r = 1, n = 1, vec = TRUE)
+#' (count_matrices(r = 1, n = 6))
+#' (count_matrices(r = 2, n = 6))
+#' (count_matrices(r = 3, n = 6))
+#' (count_matrices(r = 4, n = 6))
+#' (count_matrices(r = 5, n = 6))
+#' (count_matrices(r = 6, n = 6))
+#' (count_matrices(r = 7, n = 6))
+#' (count_matrices(r = 8, n = 6))
+#' (count_matrices(r = 9, n = 6))
+count_matrices <- function(r = 1, n = 1, vec = TRUE)
 {the_re <- rep(0, n)
 if(r == 1) {
   the_re <- vapply(1:n, function(i) fibo(i + 2), numeric(1)) } else {

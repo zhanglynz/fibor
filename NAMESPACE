@@ -2,7 +2,7 @@
 
 export(calc_coef)
 export(check_P_and_Q_of_x)
-export(count_grids)
+export(count_matrices)
 export(fibo)
 export(fibo_matrix)
 importFrom(utils,combn)
